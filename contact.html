@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Οι Πίτες του Πίτου</title>
+</head>
+
+<body>
+    <header>
+        <h2><a href="index.html">Οι Πίτες του Πίτου</a></h2>
+        <p>Ποιοτικές πίτες-μόνο χειροποίητο φύλλο</p>
+        <nav>
+            <ul>
+                <li><a href="store.html">Κατάστημα</a></li>
+                <li><a href="pies.html">Πίτες</a></li>
+                <li><a href="contact.html">Επικοινωνία</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Αρχική σελίδα</h1>
+        <article>
+            <h2>Επικοινωνία</h2>
+            <p>Σταθερό: 2610-123-123 και κινητό: 6945496813</p>
+           
+        </article>
+        <h2>Φόρμα επικοινωνίας</h2>
+        <article>
+        <form action="/sendData" method="POST">
+            <label for="txtFirstNamelastname">Ονoματεπώνυμο </label>
+            <input type="text" id="txtFirstNamelastname" name="FirstNamelastname" minlength="3" maxlength="30" size="30"
+                required>(*)<br>
+            <label for="txtemail">E-mail:</label>
+            <input type="email" id="txtemail" name="email" size="40" required>(*)<br>
+            <label for="txtphonenum">Τηλέφωνο</label>
+            <input type="tel" id="txtphonenum" name="tel" minlength="10" maxlength="10" size="10" required >(*) <br>
+            <label for="txtnotification">Μύνημα</label>
+            <textarea id="txtnotification" name="message" rows="6" cols="40"></textarea>
+            <p>(*) Τα πεδία είναι υποχρεωτικά</p>
+            <input type="submit" value="Αποστολή">
+            <input type="reset" value="Καθαρισμός">
+        </form>
+        </article>
+
+    </main>
+    <aside>
+        <h2>Προσφορές</h2>
+        <p>Giveaway-Στις 3 πίτες αναψυκτικό 1.5L της επιλογής σας δώρο!!!</p>
+    </aside>
+
+    <footer>
+        <p>&copy; Οι πίτες του πίτου</p>
+    </footer>
+</body>
+
+</html>
