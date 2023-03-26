@@ -50,6 +50,7 @@
         <article>
             <h2>Οι πίτες μας στο χώρο σας!!</h2>
             <p>Ωράριο λήψης παραγγελιών (18:00-22:00)</p>
+            <form action="/sendData" method="POST">
             <fieldset>
                 <legend>Πληροφορίες Παράδοσης</legend>
                 <label for="txtfirstlastname">Ονοματεπώνυμο:</label>
@@ -104,7 +105,8 @@
                 <label for="rdcash">Μετρητά</label>
                 <input type="radio" id="rdspecial" name="payment" value="special">
                 <label for="rdspecial">Είδος</label>
-            </fieldset><br>
+            </fieldset>
+            </form><br>
             <form action="/sendData" method="GET">
                 <input type="submit" value="Αποστολή">
                 <input type="reset" value="Καθαρισμός">
